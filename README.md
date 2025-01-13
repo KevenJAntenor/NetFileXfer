@@ -17,10 +17,72 @@ You have access to the `test_xfer` program. The main test transfers a file and v
 ## Benchmarks
 A benchmark suite is provided. It measures transfer speed as a function of block size. Run it before making your archive for submission with the command `make runbench`.
 
-## Compilation and Execution Instructions
+## 🚀 How to Run
 
-1. **Compile the Code:** Use the command `make` in the project directory to compile the code.
+### Prerequisites
+1. **Ensure a Linux Environment**:
+   - This project requires a Linux environment with support for `mmap()` and socket programming.
+   
+2. **Install GCC** (if not already installed):
+   - On Ubuntu/Debian:
+     ```bash
+     sudo apt-get install build-essential
+     ```
+   - On Fedora:
+     ```bash
+     sudo dnf groupinstall "Development Tools"
+     ```
 
+3. **Verify `make` is Installed**:
+   - Check by running:
+     ```bash
+     make --version
+     ```
+   - If not installed, add it via your package manager (e.g., `sudo apt-get install make`).
+
+---
+
+### Steps to Compile and Execute
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-repo/netfilexfer.git
+   cd netfilexfer
+   ```
+Compile the Code:
+
+Use the following command in the project root:
+```bash
+make
+```
+Run the Benchmarks:
+
+Evaluate the performance with different block sizes:
+```bash
+make runbench
+```
+Test the File Transfer Implementation:
+
+Verify correctness using the provided test suite:
+```bash
+./test_xfer
+```
+Transfer Files:
+
+To send a file:
+```bash
+./client <file_to_send>
+```
+To receive a file:
+```bash
+./server <destination_file>
+```
+Create Submission Archive:
+
+Once all tests are passed:
+```bash
+make dist
+```
 2. **Run Benchmarks:** Execute `make runbench` to run the benchmark tests and evaluate block size impacts.
 
 3. **Test the Implementation:** Use `./test_xfer` to run the main file transfer tests.
