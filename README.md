@@ -87,4 +87,5 @@ make dist
 
 3. **Test the Implementation:** Use `./test_xfer` to run the main file transfer tests.
 
-4. **Create Submission Archive:** Once all tests are passed, create a submission archive using `make dist`.
+4. **Create Submission Archive:** Once all tests are passed, create a submission archive using `make dist`
+
