@@ -11,7 +11,7 @@ To transfer files of arbitrary size, two elements are necessary. The first is to
 ## 💻✨✅ Code Completion
 The code to be completed is in the `src/xfer.c` file. It contains two functions: `xfer_send_file()` and `xfer_recv_file()`. Comments indicate the general approach to realize these two functions. You must use `mmap()` for reading and writing the file, and the `sockfd` descriptor for sending and receiving the file over the socket.
 
-## Testing
+## 🧪✅ Testing
 You have access to the `test_xfer` program. The main test transfers a file and verifies that the received file is identical for different combinations of block size and file sizes. It also checks for any file descriptor leaks.
 
 ## Benchmarks
