@@ -1,6 +1,6 @@
 # ⚙️📥🧰 NetFileXfer
 
-## Project Objective
+## 🎯📝🚀 Project Objective
 The goal of this assignment is to transfer files over a network. The client component reads the specified file and sends it to the server. The server receives the file and saves it in a destination file.
 
 Connection management is already implemented for you. You have direct access to a file descriptor for writing data to send and reading data to receive.
