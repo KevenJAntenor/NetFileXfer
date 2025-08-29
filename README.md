@@ -8,7 +8,7 @@ Connection management is already implemented for you. You have direct access to 
 ## 🔑📋✅ Key Requirements
 To transfer files of arbitrary size, two elements are necessary. The first is to use `mmap()` for reading the file on the client side and writing the file on the server side. If the file does not fit in memory, the operating system will automatically free pages. The second element involves sending and receiving data in blocks. The block size is a parameter of the function you need to complete.
 
-## Code Completion
+## 💻✨✅ Code Completion
 The code to be completed is in the `src/xfer.c` file. It contains two functions: `xfer_send_file()` and `xfer_recv_file()`. Comments indicate the general approach to realize these two functions. You must use `mmap()` for reading and writing the file, and the `sockfd` descriptor for sending and receiving the file over the socket.
 
 ## Testing
