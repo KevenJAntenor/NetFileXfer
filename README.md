@@ -14,7 +14,7 @@ The code to be completed is in the `src/xfer.c` file. It contains two functions:
 ## 🧪✅ Testing
 You have access to the `test_xfer` program. The main test transfers a file and verifies that the received file is identical for different combinations of block size and file sizes. It also checks for any file descriptor leaks.
 
-## Benchmarks
+## 📊⏱️🏁 Benchmarks
 A benchmark suite is provided. It measures transfer speed as a function of block size. Run it before making your archive for submission with the command `make runbench`.
 
 ## 🚀 How to Run
