@@ -42,7 +42,7 @@ A benchmark suite is provided. It measures transfer speed as a function of block
 
 ---
 
-### Steps to Compile and Execute
+### ⚙️▶️ Steps to Compile and Execute
 
 1. **Clone the Repository**:
    ```bash
