@@ -19,7 +19,7 @@ A benchmark suite is provided. It measures transfer speed as a function of block
 
 ## 🚀 How to Run
 
-### Prerequisites
+### 📋⚙️ Prerequisites
 1. **Ensure a Linux Environment**:
    - This project requires a Linux environment with support for `mmap()` and socket programming.
    
