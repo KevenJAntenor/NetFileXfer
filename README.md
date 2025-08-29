@@ -5,7 +5,7 @@ The goal of this assignment is to transfer files over a network. The client comp
 
 Connection management is already implemented for you. You have direct access to a file descriptor for writing data to send and reading data to receive.
 
-## Key Requirements
+## 🔑📋✅ Key Requirements
 To transfer files of arbitrary size, two elements are necessary. The first is to use `mmap()` for reading the file on the client side and writing the file on the server side. If the file does not fit in memory, the operating system will automatically free pages. The second element involves sending and receiving data in blocks. The block size is a parameter of the function you need to complete.
 
 ## Code Completion
